@@ -20,7 +20,7 @@ nav {
 	color: #A4C3B2;	
 }
 
-/*mobile amends*/
+/*nav mobile amends*/
 @media screen and (max-width: 768px){
 .links {
 		display: flex;
@@ -35,12 +35,27 @@ section {
 }
 
 /*sections with flex box center*/
-header, main, article {
+header {
 	display: flex;
 	justify-content: center;
-}
+} 
 
 /*header*/
 header {
 	background-color: #CCE3DE;
+	padding: 20px;
+	
 }
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	max-width: 50%;
+	max-height: 50%;
+	margin-right: 20px;
+}
+
+/*header mobile amends*/
