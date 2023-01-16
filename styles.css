@@ -31,11 +31,16 @@ nav {
 /*common section styling*/
 section {
 	width: 80%;
-	background-color: red;
+	/*background-color: red;*/
 }
 
 /*sections with flex box center*/
 header, main, article {
 	display: flex;
 	justify-content: center;
+}
+
+/*header*/
+header {
+	background-color: #CCE3DE;
 }
