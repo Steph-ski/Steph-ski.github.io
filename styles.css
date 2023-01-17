@@ -33,8 +33,7 @@ nav {
 /*common section styling*/
 .overall {
 	width: 80%;
-	/*border: dotted black 5px;*/
-	/*background-color: red;*/
+	background-color: red;
 }
 
 /*sections with flex box center*/
@@ -95,6 +94,35 @@ img {
 .my-details h2 {
 	text-align: center;
 }
+
+/*porfolio*/
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: green;
+	padding: 20px;
+}
+
+article {
+	border: blue dotted 5px;
+	display: flex;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+}
+
+article div {
+	width: 50%;
+}
+
+
+
+.content {
+	border: red dotted 5px;
+}
+
 
 
 /*footer*/
