@@ -1,3 +1,91 @@
 * {
-	box-sizing: border-box;
+	box-sizing: border-box;	
 }
+
+html {
+	font-family: Georgia, serif;
+}
+
+
+/*nav bar*/
+nav {
+	background-color: #6B9080;
+	padding: 30px;
+	position: fixed;
+	width: 100%;
+}
+
+
+.nav-links a {
+	text-decoration: none;
+	margin-left: 20px;
+	color: #A4C3B2;	
+}
+
+/*nav mobile amends*/
+@media screen and (max-width: 768px){
+.links {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+/*common section styling*/
+.overall {
+	width: 80%;
+	/*border: dotted black 5px;*/
+	/*background-color: red;*/
+}
+
+/*sections with flex box center*/
+header, footer {
+	display: flex;
+	justify-content: center;
+} 
+
+/*header*/
+header {
+	background-color: #CCE3DE;
+	padding: 20px;		
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+img {
+	max-width: 40%;
+	max-height: 40%;
+	margin-right: 20px;
+	border-radius: 100px;
+	padding: 10px;
+}
+
+.header button {
+	border: 2px solid #6B9080;
+	border-radius: 12px;
+	padding: 10px;
+	background-color: #EAF4F4;
+}
+
+/*header mobile amends*/
+@media screen and (max-width: 768px){
+.header {
+	flex-wrap: wrap-reverse;
+	text-align: center;
+	}
+img {
+	padding: 10px;
+}
+}
+
+
+/*footer*/
+footer {
+	background-color: #6B9080;
+	padding: 10px;
+	font-size: 10px;
+}
+	
