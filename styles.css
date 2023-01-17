@@ -85,18 +85,16 @@ img {
 /*main*/
 .about-me {
 	background-color: #F6FFF8;
-	border: dotted red 1px;
 	justify-content: center;
 }
 
-.my-details {
-	text-align: center;
-	border: dotted red 1px;
+.my-details p {
+	text-align: center justify;
 }
 
-
-
-
+.my-details h2 {
+	text-align: center;
+}
 
 
 /*footer*/
