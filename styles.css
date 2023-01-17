@@ -33,7 +33,7 @@ nav {
 /*common section styling*/
 .overall {
 	width: 80%;
-	border: dotted black 5px;
+	/*border: dotted black 5px;*/
 	/*background-color: red;*/
 }
 
@@ -60,6 +60,7 @@ img {
 	max-height: 40%;
 	margin-right: 20px;
 	border-radius: 100px;
+	padding: 10px;
 }
 
 .header button {
@@ -73,12 +74,18 @@ img {
 @media screen and (max-width: 768px){
 .header {
 	flex-wrap: wrap-reverse;
+	text-align: center;
 	}
+img {
+	padding: 10px;
+}
 }
 
+
+/*footer*/
 footer {
 	background-color: #6B9080;
 	padding: 10px;
-	border: red dotted 1px;
+	font-size: 10px;
 }
 	
