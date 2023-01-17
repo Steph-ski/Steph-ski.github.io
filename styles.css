@@ -38,7 +38,7 @@ nav {
 }
 
 /*sections with flex box center*/
-header, footer {
+header, footer, main {
 	display: flex;
 	justify-content: center;
 } 
@@ -52,14 +52,15 @@ header {
 .header {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin-top: 80px;
 }
 
 img {
-	max-width: 40%;
-	max-height: 40%;
+	max-width: 30%;
+	max-height: 30%;
 	margin-right: 20px;
-	border-radius: 100px;
+	border-radius: 80px;
 	padding: 10px;
 }
 
@@ -81,6 +82,20 @@ img {
 }
 }
 
+/*main*/
+.about-me {
+	background-color: #F6FFF8;
+	justify-content: center;
+}
+
+.my-details p {
+	text-align: center justify;
+}
+
+.my-details h2 {
+	text-align: center;
+}
+
 
 /*footer*/
 footer {
@@ -88,4 +103,4 @@ footer {
 	padding: 10px;
 	font-size: 10px;
 }
-	
+
