@@ -87,6 +87,11 @@ header img {
 	justify-content: center;
 }
 
+.my-details {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
 .my-details p {
 	text-align: center justify;
 }
@@ -98,7 +103,7 @@ header img {
 /*porfolio summary*/
 
 .my-projects {
-	background-color: #F6FFF8;
+	background-color: #EAF4F4;
 }
 
 .portfolio {
@@ -125,6 +130,7 @@ article {
 	height: 400px;
 	margin: 10px;
 	background: #CCE3DE;
+	box-shadow: 5px 10px #6B9080;
 }
 
 article > div {
