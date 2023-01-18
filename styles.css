@@ -151,11 +151,18 @@ article div div p {
 	padding-top: 20;
 }
 
+
 .buttons {
 	border: blue dotted;
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 25%;
+}
+
+.buttons a {
 	text-decoration: none;
+	color: #000000;
 }
 
 
