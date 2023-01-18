@@ -181,6 +181,9 @@ article > div {
 	justify-content: space-around;
 }
 
+h3 {
+	margin-left: 10px;
+}
 
 /*footer*/
 footer {
