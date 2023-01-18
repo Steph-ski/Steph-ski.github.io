@@ -104,6 +104,8 @@ header img {
 
 .my-projects {
 	background-color: #EAF4F4;
+	padding-top: 100px;
+	padding-bottom: 20px;
 }
 
 .portfolio {
@@ -181,12 +183,31 @@ article > div {
 	justify-content: space-around;
 }
 
+h3 {
+	margin-left: 10px;
+}
+
 
 /*footer*/
 footer {
 	background-color: #6B9080;
 	padding: 10px;
-	font-size: 10px;
+}
+
+.footer {
+	display: flex;
+	text-align: space-between;
+}
+
+footer h2 {
+	text-align: center;
+	padding-top: 80px;
+}
+
+.contact img{
+	height: 10%;
+	width: 10%;
+	padding-left: 10px;
 }
 
 
