@@ -4,6 +4,7 @@
 
 html {
 	font-family: Georgia, serif;
+	 scroll-padding-top: 70px;
 }
 
 
@@ -68,6 +69,7 @@ header img {
 	border-radius: 12px;
 	padding: 10px;
 	background-color: #EAF4F4;
+	cursor: pointer;
 }
 
 /*header mobile amends*/
@@ -98,6 +100,8 @@ header img {
 
 .my-details h2 {
 	text-align: center;
+	margin-top: 20px;
+	padding-top: 20px;
 }
 
 /*porfolio summary*/
@@ -119,6 +123,7 @@ header img {
 
 .my-projects h2 {
 	text-align: center;
+	padding-top: 20px;
 }
 
 .my-projects p {
@@ -197,6 +202,7 @@ footer {
 .footer {
 	display: flex;
 	text-align: space-between;
+	margin-bottom: 50px;
 }
 
 footer h2 {
@@ -208,6 +214,11 @@ footer h2 {
 	height: 10%;
 	width: 10%;
 	padding-left: 10px;
+}
+
+.copyright {
+	white-space: nowrap;
+	margin-top: 70px;
 }
 
 
