@@ -4,7 +4,7 @@
 
 html {
 	font-family: Georgia, serif;
-	 scroll-padding-top: 70px;
+	scroll-padding-top: 70px;
 }
 
 
@@ -15,7 +15,6 @@ nav {
 	position: fixed;
 	width: 100%;
 }
-
 
 .nav-links a {
 	text-decoration: none;
@@ -56,6 +55,10 @@ header {
 	margin-top: 80px;
 }
 
+.header p{
+	margin-bottom: 25px;
+}
+
 header img {
 	max-width: 30%;
 	max-height: 30%;
@@ -64,12 +67,13 @@ header img {
 	padding: 10px;
 }
 
-.header button {
+.header .button {
 	border: 2px solid #6B9080;
 	border-radius: 12px;
 	padding: 10px;
 	background-color: #EAF4F4;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 /*header mobile amends*/
@@ -79,11 +83,11 @@ header img {
 	text-align: center;
 	}
 header img {
-	padding: 10px;
+	padding: 25px 10px 10px 10px;
 }
 }
 
-/*main*/
+/*main about me*/
 .about-me {
 	background-color: #F6FFF8;
 	justify-content: center;
@@ -109,7 +113,7 @@ header img {
 .my-projects {
 	background-color: #EAF4F4;
 	padding-top: 100px;
-	padding-bottom: 20px;
+	padding-bottom: 100px;
 }
 
 .portfolio {
@@ -148,7 +152,6 @@ article > div {
 	justify-content: space-between; 
 }
 
-
 .portfolio img {
 	width: 90%;
 	height: 50%;
@@ -159,8 +162,6 @@ article > div {
 	text-align: left;
 	padding-top: 20;
 }
-
-
 
 .buttons {
 	/*border: blue dotted;*/
@@ -201,7 +202,7 @@ footer {
 
 .footer {
 	display: flex;
-	text-align: space-between;
+	justify-content: space-between;
 	margin-bottom: 50px;
 }
 
@@ -211,8 +212,8 @@ footer h2 {
 }
 
 .contact img{
-	height: 10%;
-	width: 10%;
+	height: 20px;
+	width: 100px;
 	padding-left: 10px;
 }
 
