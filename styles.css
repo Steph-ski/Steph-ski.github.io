@@ -99,7 +99,7 @@ header img {
 }
 
 .my-details p {
-	text-align: center justify;
+	text-align: justify;
 }
 
 .my-details h2 {
@@ -160,7 +160,7 @@ article > div {
 
 .portfolio p {
 	text-align: left;
-	padding-top: 20;
+	padding-top: 20px;
 }
 
 .buttons {
@@ -222,5 +222,9 @@ footer h2 {
 	margin-top: 70px;
 }
 
-
+/*header mobile amends*/
+@media screen and (max-width: 400px){
+.footer {
+	display: block;
+	}
 
