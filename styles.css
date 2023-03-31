@@ -113,6 +113,20 @@ header img {
   padding-top: 80px;
 }
 
+.cv {
+  display: flex;
+  justify-content: center;
+}
+
+.my-details .button {
+  border: 2px solid #6B9080;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #EAF4F4;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 /*portfolio summary*/
 .my-projects {
   background-color: #EAF4F4;
@@ -147,7 +161,9 @@ article {
 
 .portfolio img {
   width: 90%;
-  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio p {
@@ -162,19 +178,12 @@ article {
 /*	align-items: flex-end;*/
 /*	padding: 2px;*/
 /*}*/
-.buttons a {
-  text-decoration: none;
-  color: #000000;
-  padding-left: 20px;
-  padding-right: 10px;
-}
-
 .logos {
   display: flex;
   flex-wrap: wrap;
 }
 .logos img {
-  width: 30%;
+  width: 40%;
 }
 
 h3 {
@@ -183,8 +192,20 @@ h3 {
 
 figure {
   width: 30%;
+  text-align: center;
 }
 
+/*portfolio mobile amends*/
+@media screen and (max-width: 768px) {
+  .logos {
+    display: block;
+  }
+  figure {
+    margin: auto;
+    width: 40%;
+    margin-bottom: 20px;
+  }
+}
 /*footer*/
 footer {
   background-color: #6B9080;
