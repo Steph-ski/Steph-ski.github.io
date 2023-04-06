@@ -32,7 +32,7 @@ nav {
 		padding-right: 10px
 	}
 	.nav-links {
-		display: flex;
+		text-align: center;
 		padding-right: 10px;
 		padding-left: 10px;
 		font-size: 14px;
@@ -131,7 +131,6 @@ header img {
 	background-color: $background-color2;
 	cursor: pointer;
 	text-decoration: none;
-	//margin-top: 20px;
 }
 
 /*portfolio summary*/
@@ -158,10 +157,6 @@ header img {
 	text-align: center;
 }
 
-article:hover {
-	transform: scale(1.04);
-}
-
 article {
 	display: flex;
 	flex-wrap: wrap;
@@ -171,7 +166,6 @@ article {
 	margin: 10px;
 	background: #CCE3DE;
 	box-shadow: 5px 10px $background-color1;
-	transition: transform 0.5s linear;
 }
 
 .project-image {
